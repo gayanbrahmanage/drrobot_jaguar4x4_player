@@ -22,3 +22,11 @@ Run `catkin_make`
 `git clone` to present working directory.
 
 `catkin_ws/src`
+
+## How to run
+
+`roslaunch drrobot_jaguar4x4_player H20base_player_basic.launch `
+
+`roslaunch drrobot_jaguar4x4_player H20base_player.launch `
+
+`roslaunch drrobot_jaguar4x4_player H20base_player_manual.launch `
