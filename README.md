@@ -9,7 +9,7 @@ First, install dependency packages.
 
 ### Install the dependency packages
 The H20 driver needs dependency package `DrRobotMotionSensorDriver`
-To install, `git clone` the `DrRobotMotionSensorDriver` package to same directory `catkin_ws/src`
+To install, `git clone` the `DrRobotMotionSensorDriver` package to the  directory `catkin_ws/src`
 
 `git clone https://github.com/gayanbrahmanage/DrRobotMotionSensorDriver.git `
 
