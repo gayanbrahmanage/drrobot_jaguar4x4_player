@@ -7,6 +7,12 @@ This package provides all the necessary drivers and programs for H20 robot. Init
 ## How to install
 First, install dependency packages.
 
+### Install joystick 
+
+The driver package for joystick operation can be installed using the following documentation.
+
+`http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick`
+
 ### Install the dependency packages
 The H20 driver needs dependency package `DrRobotMotionSensorDriver`
 To install, `git clone` the `DrRobotMotionSensorDriver` package to the  directory `catkin_ws/src`
