@@ -36,6 +36,6 @@ Run `catkin_make`
 `roslaunch drrobot_jaguar4x4_player H20base_player.launch `
 
 ### Additional information for data recording
-The package can subscribe to the topic `/scan` and publishes the topic `/Rscanpose` that contains `laser scan data`, `pose` and individual encoder readings registered at each `timestamp`.
+The package can subscribe to the topic `/scan` and publishes the topic `/Rscanpose` that contains `laser scan data`, `pose` and individual `encoder readings` registered at each `timestamp`.
 
 See `rostopic list`
