@@ -11,9 +11,7 @@ First, install dependency packages.
 
 The driver package for joystick operation can be installed using the following documentation.
 
-[a link](http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick)
-
-`http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick`
+[Configuring and Using a Linux-Supported Joystick with ROS](http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick)
 
 ### Install the dependency packages
 The H20 driver needs dependency package `DrRobotMotionSensorDriver`
