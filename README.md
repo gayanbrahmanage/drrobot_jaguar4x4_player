@@ -11,6 +11,8 @@ First, install dependency packages.
 
 The driver package for joystick operation can be installed using the following documentation.
 
+[a link](http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick)
+
 `http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick`
 
 ### Install the dependency packages
