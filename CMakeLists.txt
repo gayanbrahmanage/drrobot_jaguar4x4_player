@@ -222,5 +222,6 @@ target_link_libraries(drrobot_player_manual ${catkin_LIBRARIES})
 add_executable(drrobotMsgTester src/drrobotMsgTester.cpp)
 target_link_libraries(drrobotMsgTester ${catkin_LIBRARIES})
 
-
+add_executable(drrobot_player_joystick src/drrobot_player_joystick.cpp)
+target_link_libraries(drrobot_player_joystick ${catkin_LIBRARIES})
 
