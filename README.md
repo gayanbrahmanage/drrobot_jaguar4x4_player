@@ -25,8 +25,8 @@ Run `catkin_make`
 
 ## How to run
 
-`roslaunch drrobot_jaguar4x4_player H20base_player_basic.launch `
+`roslaunch drrobot_jaguar4x4_player H20base_player_joystick.launch `
 
 `roslaunch drrobot_jaguar4x4_player H20base_player.launch `
 
-`roslaunch drrobot_jaguar4x4_player H20base_player_manual.launch `
+
