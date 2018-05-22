@@ -214,14 +214,17 @@ include_directories(
 
 
 add_executable(drrobot_player src/drrobot_player.cpp)
-target_link_libraries(drrobot_player ${catkin_LIBRARIES})
-
 add_executable(drrobot_player_manual src/drrobot_player_manual.cpp)
-target_link_libraries(drrobot_player_manual ${catkin_LIBRARIES})
-
 add_executable(drrobotMsgTester src/drrobotMsgTester.cpp)
-target_link_libraries(drrobotMsgTester ${catkin_LIBRARIES})
-
 add_executable(drrobot_player_joystick src/drrobot_player_joystick.cpp)
-target_link_libraries(drrobot_player_joystick ${catkin_LIBRARIES})
 
+
+add_dependencies(drrobot_player drrobot_jaguar4x4_player_generate_messages_cpp)
+add_dependencies(drrobot_player_manual drrobot_jaguar4x4_player_generate_messages_cpp)
+add_dependencies(drrobotMsgTester drrobot_jaguar4x4_player_generate_messages_cpp)
+add_dependencies(drrobot_player_joystick drrobot_jaguar4x4_player_generate_messages_cpp)
+
+target_link_libraries(drrobot_player_joystick ${catkin_LIBRARIES})
+target_link_libraries(drrobotMsgTester ${catkin_LIBRARIES})
+target_link_libraries(drrobot_player_manual ${catkin_LIBRARIES})
+target_link_libraries(drrobot_player ${catkin_LIBRARIES})
