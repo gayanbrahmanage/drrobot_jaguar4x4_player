@@ -42,7 +42,7 @@ See `rostopic list`
 
 
 #  Network Setup
-(bY  Noam Anglo)
+(by  Noam Anglo)
 
 ###  External Router problem
 If the ‘external’ router breaks, you will need to interface somehow with the ‘internal’ access point (in
