@@ -41,7 +41,7 @@ The package can subscribe to the topic `/scan` and publishes the topic `/Rscanpo
 See `rostopic list`
 
 
-#Network Setup
+#  Network Setup
 (Noam Anglo)
 
 ##External Router problem
@@ -49,7 +49,7 @@ If the ‘external’ router breaks, you will need to interface somehow with the
 our case, a PicoStation M2). Get ready for the greatest point-and-click adventure of your life.
 Materials needed: an Ethernet cable or two, a new router (obviously) and a computer with Ethernet
 
-###Key Terms - Basic
+###  Key Terms - Basic
 
 Network – a bunch of devices connceted together, usually through Wi-Fi or Ethernet or something
 
@@ -71,7 +71,8 @@ Fi controller
 DHCP – Dynamic Host Configuration Protocol. A DHCP server will assign IPs to devices connected to
 its network that don’t already have a static IP enabled. Without this, you must set your IPs manually
 Port – the thing after the IP address, eg. the 8888 in 192.168.0.12:8888. Sometimes you need this.
-Key Terms - Networking Devices
+
+### Key Terms - Networking Devices
 
 Client – a device that makes requests to a server
 
@@ -89,7 +90,7 @@ Router – a device with the combined functionality of a DHCP server, a switch a
 wireless routers) an AP; also allows for connection to the WAN. Can be configured to act as any one of
 these
 
-####Key Terms – Specific Stuff.
+###  Key Terms – Specific Stuff.
 
 WDS – Wireless Distribution System – allows for a ‘transparent’ connection between two Wi-Fi
 devices, as if they were connected over Ethernet
