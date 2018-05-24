@@ -44,7 +44,7 @@ See `rostopic list`
 #  Network Setup
 (Noam Anglo)
 
-##External Router problem
+###  External Router problem
 If the ‘external’ router breaks, you will need to interface somehow with the ‘internal’ access point (in
 our case, a PicoStation M2). Get ready for the greatest point-and-click adventure of your life.
 Materials needed: an Ethernet cable or two, a new router (obviously) and a computer with Ethernet
