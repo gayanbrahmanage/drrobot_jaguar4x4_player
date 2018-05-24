@@ -51,7 +51,7 @@ Materials needed: an Ethernet cable or two, a new router (obviously) and a compu
 
 ###  Key Terms - Basic
 
-Network – a bunch of devices connceted together, usually through Wi-Fi or Ethernet or something
+``Network`` – a bunch of devices connceted together, usually through Wi-Fi or Ethernet or something
 
 LAN – Local Area Network. Your network. Also refers to a wired Ethernet connection
 
